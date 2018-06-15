@@ -1,0 +1,58 @@
+body {
+background-color: #333333;
+font-style: normal;
+}
+
+h1 {
+  font-size: 100px;
+  color: orange;
+}
+
+h2 {
+  font-size: 40 px;
+  color: orange;
+}
+
+h3 {
+  font-size: 30px;
+  color: orange;
+}
+
+p{
+  font-size: 20px;
+  color: white;
+}
+
+
+.hero {
+  background-color: #333333;
+  background-image: url("Digital_forest.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 600px;
+  image width: 100%;
+  image height: 600px;
+}
+
+
+.intro {
+  background-color:#333333;
+  padding-bottom: 20px;
+}
+
+.intro-image img {
+  width: 100%;
+  height: auto;
+}
+
+.intro-image {
+
+}
+
+.why_digiprod {
+  padding-bottom: 20px;
+}
+
+.who-we-are {
+  padding-bottom: 20px;
+}
