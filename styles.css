@@ -9,22 +9,26 @@ h1 {
   color: #e29526;
   font-weight: bold;
   width: 100%;
+  margin: 0;
 }
 
 h2 {
   font-size: 40px;
   color: #e29526;
   align-self: stretch;
+  margin: 0;
 }
 
 h3 {
   font-size: 30px;
   color: #e29526;
+  margin: 0;
 }
 
 p {
   font-size: 20px;
   color: white;
+  margin: 0;
 }
 
 
@@ -34,10 +38,10 @@ p {
   background-size: auto;
   background-repeat: no-repeat;
   width: 100%;
-  height: 50%;
+  height: 800px;
   text-align: center;
   align-content: center;
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 10px;
   word-wrap: break-word;
 }
@@ -50,12 +54,15 @@ p {
   list-style-type: none;
   justify-content: space-between;
   align-content: space-between;
+  word-wrap: break-word;
+  border-top: 1px solid #390587;
+  border-bottom: 1px solid #390587;
 }
 
 ul {
     list-style-type: none;
-    padding: 20px 50px;
-    width: 25%;
+    padding: 10px 50px;
+    width: 10%;
     background-color: black;
 }
 
@@ -83,28 +90,31 @@ height: 300px;
 text-align: center;
 background-color: white;
 flex-wrap: nowrap;
+border-bottom: 1px solid #390587;
 }
 
-.item1 {
+.item {
   width: 100%;
   height: 300px;
   text-align: center;
-  background-image: url(digital_tree.jpg);
   background-size: 100%;
   background-color: black;
   background-repeat: no-repeat;
 }
 
-.item2 {
-  width: 100%;
-  height: 300px;
+.first {
+  text-align: center;
+  background-image: url(digital_tree.jpg);
+  background-size: 100%;
+}
+
+.second {
   text-align: center;
   background-color: black;
   background-repeat: no-repeat;
 }
 
-.item3 {
-  width: 100%;
+.third {
   text-align: center;
   background-image: url(Digital_forest_with_light.jpeg);
   background-size: 100%;
@@ -118,29 +128,28 @@ flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 300px;
+  height: 500px;
   text-align: justify;
   padding-bottom: 1px;
+  border-bottom: 1px solid #390587;
 }
 
-.item4 {
-  width: 100%;
-  height: 300px;
+.fourth {
   text-align: center;
   background-color: #333333;
   justify-content: flex-start;
   flex-wrap: wrap;
 }
 
-.item5 {
-  width: 100%;
-  height: 300px;
+
+.fifth {
   text-align: center;
   background-color: #333333;
   justify-content: center;
   align-content: space-around;
   flex-wrap: wrap;
-}
+  }
+
 
 .intro {
   background-color: #333333;
@@ -194,6 +203,9 @@ flex-wrap: nowrap;
   display: block;
   width: 100%;
   height: auto;
+}
+.navbar {
+  width: auto;
 }
 }
 
