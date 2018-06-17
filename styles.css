@@ -1,12 +1,12 @@
 body {
-background-color: #333333;
+background-color: #05000c;
 font-style: normal;
 font-family: sans-serif;
 }
 
 h1 {
   font-size: 100px;
-  color: #e29526;
+  color: #e5b987;
   font-weight: bold;
   width: 100%;
   margin: 0;
@@ -14,14 +14,14 @@ h1 {
 
 h2 {
   font-size: 40px;
-  color: #e29526;
+  color: #e5b987;
   align-self: stretch;
   margin: 0;
 }
 
 h3 {
   font-size: 30px;
-  color: #e29526;
+  color: #e5b987;
   margin: 0;
 }
 
@@ -52,9 +52,8 @@ p {
   width: 100%;
   height: 50px;
   list-style-type: none;
-  justify-content: space-between;
+  justify-content: center;
   align-content: space-between;
-  word-wrap: break-word;
   border-top: 1px solid #390587;
   border-bottom: 1px solid #390587;
 }
@@ -102,6 +101,10 @@ border-bottom: 1px solid #390587;
   background-repeat: no-repeat;
 }
 
+.item:hover {
+opacity: 0.95;
+}
+
 .first {
   text-align: center;
   background-image: url(digital_tree.jpg);
@@ -128,7 +131,7 @@ border-bottom: 1px solid #390587;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: 500px;
+  height: 300px;
   text-align: justify;
   padding-bottom: 1px;
   border-bottom: 1px solid #390587;
@@ -136,32 +139,38 @@ border-bottom: 1px solid #390587;
 
 .fourth {
   text-align: center;
-  background-color: #333333;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  background-color: #05000c;
+  background-repeat: no-repeat;
+  margin: 0;
 }
 
 
 .fifth {
   text-align: center;
-  background-color: #333333;
+  background-color: #05000c;
   justify-content: center;
-  align-content: space-around;
   flex-wrap: wrap;
   }
 
+  .fourth:hover {
+  opacity: 0.5;
+  }
+
+  .fifth:hover {
+  opacity: 0.5;
+  }
 
 .intro {
-  background-color: #333333;
+  background-color: #05000c;
   background-image: url("digital-tree-with-roots.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   padding-bottom: 200px;
-  image width: 100%;
-  image height: 600px;
+  width: 100%;
+  height: 800px;
   text-align: left;
-  text
-  padding-top: 100px;
+  padding-top: 50px;
+  border-bottom: 1px solid #390587;
 }
 
 .intro-image img {
